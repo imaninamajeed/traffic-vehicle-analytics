@@ -1,0 +1,19 @@
+{
+  "name": "AI MRT PIDS Prototype",
+  "short_name": "MRT PIDS",
+  "description": "AI-powered Passenger Information Display System prototype for MRT concourse and platform signage.",
+  "start_url": "/classic",
+  "scope": "./",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "background_color": "#050914",
+  "theme_color": "#050914",
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

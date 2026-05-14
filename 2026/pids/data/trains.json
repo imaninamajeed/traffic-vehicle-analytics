@@ -1,0 +1,107 @@
+{
+  "station": "MRT Kajang / Kwasa Damansara Line",
+  "platforms": [
+    {
+      "name": "Platform 1",
+      "direction": "Toward Kwasa Damansara",
+      "trains": [
+        {
+          "id": "KG1024",
+          "destination": "Kwasa Damansara",
+          "arrivalMins": 3,
+          "service": "Normal Service",
+          "crowdDensity": 56,
+          "advisory": "Proceed to Platform 1. Board Coach 3 for lower crowd density.",
+          "platformAdvisory": "Board Coach 3. Move toward the middle platform area for lower crowd density and smoother boarding.",
+          "coaches": [
+            { "coach": 1, "load": 78 },
+            { "coach": 2, "load": 56 },
+            { "coach": 3, "load": 34 },
+            { "coach": 4, "load": 49 }
+          ]
+        },
+        {
+          "id": "KG1028",
+          "destination": "Kwasa Damansara",
+          "arrivalMins": 8,
+          "service": "Normal Service",
+          "crowdDensity": 42,
+          "advisory": "Use the center platform area for smoother passenger flow.",
+          "platformAdvisory": "Coach 2 has the most available space for this service.",
+          "coaches": [
+            { "coach": 1, "load": 48 },
+            { "coach": 2, "load": 31 },
+            { "coach": 3, "load": 44 },
+            { "coach": 4, "load": 51 }
+          ]
+        },
+        {
+          "id": "KG1032",
+          "destination": "Kwasa Damansara",
+          "arrivalMins": 12,
+          "service": "Normal Service",
+          "crowdDensity": 61,
+          "advisory": "Coach 4 is expected to have lighter crowding.",
+          "platformAdvisory": "Move toward Coach 4 for a better chance of open standing space.",
+          "coaches": [
+            { "coach": 1, "load": 69 },
+            { "coach": 2, "load": 64 },
+            { "coach": 3, "load": 58 },
+            { "coach": 4, "load": 39 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Platform 2",
+      "direction": "Toward Kajang",
+      "trains": [
+        {
+          "id": "KG2031",
+          "destination": "Kajang",
+          "arrivalMins": 5,
+          "service": "Normal Service",
+          "crowdDensity": 38,
+          "advisory": "Use the front boarding area. Current passenger flow is smooth.",
+          "platformAdvisory": "Board Coach 1 or Coach 2 for the smoothest entry.",
+          "coaches": [
+            { "coach": 1, "load": 35 },
+            { "coach": 2, "load": 39 },
+            { "coach": 3, "load": 44 },
+            { "coach": 4, "load": 52 }
+          ]
+        },
+        {
+          "id": "KG2034",
+          "destination": "Kajang",
+          "arrivalMins": 9,
+          "service": "Normal Service",
+          "crowdDensity": 47,
+          "advisory": "Passenger flow is balanced. Use the nearest boarding zone.",
+          "platformAdvisory": "All coaches are suitable for boarding.",
+          "coaches": [
+            { "coach": 1, "load": 44 },
+            { "coach": 2, "load": 48 },
+            { "coach": 3, "load": 45 },
+            { "coach": 4, "load": 51 }
+          ]
+        },
+        {
+          "id": "KG2038",
+          "destination": "Kajang",
+          "arrivalMins": 14,
+          "service": "Normal Service",
+          "crowdDensity": 72,
+          "advisory": "Higher passenger volume expected. Spread along the platform.",
+          "platformAdvisory": "Avoid Coach 1 and distribute toward Coach 3.",
+          "coaches": [
+            { "coach": 1, "load": 81 },
+            { "coach": 2, "load": 74 },
+            { "coach": 3, "load": 57 },
+            { "coach": 4, "load": 66 }
+          ]
+        }
+      ]
+    }
+  ]
+}

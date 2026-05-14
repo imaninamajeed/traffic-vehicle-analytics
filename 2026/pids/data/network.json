@@ -1,0 +1,88 @@
+{
+  "line": {
+    "id": "kajang",
+    "name": "MRT Kajang Line",
+    "operatingHours": {
+      "firstTrain": "06:00",
+      "lastDepartureFromTerminal": "23:30",
+      "note": "Tren MRT Laluan Kajang beroperasi setiap hari bermula 6:00 pagi hingga 11:30 malam; tren terakhir berlepas dari stesen hujung."
+    },
+    "headways": {
+      "weekdayPeak": {
+        "periods": [
+          ["07:00", "09:00"],
+          ["17:00", "19:00"]
+        ],
+        "minutes": [5, 6]
+      },
+      "weekdayOffPeak": {
+        "periods": [
+          ["09:00", "17:00"],
+          ["19:00", "24:00"]
+        ],
+        "minutes": [10]
+      },
+      "weekendPublicHoliday": {
+        "minutes": [10]
+      }
+    }
+  },
+  "stations": [
+    {
+      "id": "kg16",
+      "code": "KG16",
+      "name": "Pasar Seni",
+      "platforms": [
+        {
+          "id": "p1",
+          "name": "Platform 1",
+          "direction": "Toward Kwasa Damansara",
+          "terminal": "Kwasa Damansara",
+          "trainPrefix": "KG1"
+        },
+        {
+          "id": "p2",
+          "name": "Platform 2",
+          "direction": "Toward Kajang",
+          "terminal": "Kajang",
+          "trainPrefix": "KG2"
+        }
+      ]
+    },
+    {
+      "id": "kg18",
+      "code": "KG18",
+      "name": "Tun Razak Exchange",
+      "platforms": [
+        {
+          "id": "p1",
+          "name": "Platform 1",
+          "direction": "Toward Kwasa Damansara",
+          "terminal": "Kwasa Damansara",
+          "trainPrefix": "KG1"
+        },
+        {
+          "id": "p2",
+          "name": "Platform 2",
+          "direction": "Toward Kajang",
+          "terminal": "Kajang",
+          "trainPrefix": "KG2"
+        }
+      ]
+    },
+    {
+      "id": "kg35",
+      "code": "KG35",
+      "name": "Kajang",
+      "platforms": [
+        {
+          "id": "p1",
+          "name": "Platform 1",
+          "direction": "Toward Kwasa Damansara",
+          "terminal": "Kwasa Damansara",
+          "trainPrefix": "KG1"
+        }
+      ]
+    }
+  ]
+}
